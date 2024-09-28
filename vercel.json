@@ -1,8 +1,7 @@
 {
   "routes": [
     {
-      "src": "/webhook",
-      "type": "http"
+      "src": "/webhook"
     }
   ],
   "env": {
