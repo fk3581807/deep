@@ -17,8 +17,5 @@
     "NODE_ENV": "production",
     "PORT": 3000,
     "TelegramBotToken": "<your-telegram-bot-token>"
-  },
-  "output": {
-    "public": "/public"
   }
 }
