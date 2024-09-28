@@ -6,3 +6,12 @@
     }
   ]
 }
+{
+  "builds": [
+    {
+      "src": "/server.js",
+      "dest": "/",
+      "ssr": true
+    }
+  ]
+}
