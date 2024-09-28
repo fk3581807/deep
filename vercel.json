@@ -1,17 +1,24 @@
 {
-  "routes": [
-    {
-      "src": "/webhook",
-      "dest": "/webhook"
-    }
-  ]
-}
-{
   "builds": [
     {
       "src": "/server.js",
       "dest": "/",
       "ssr": true
     }
-  ]
+  ],
+  "routes": [
+    {
+      "src": "/webhook",
+      "dest": "/webhook",
+      "type": "http"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production",
+    "PORT": 3000,
+    "TelegramBotToken": "<your-telegram-bot-token>"
+  },
+  "output": {
+    "public": "/public"
+  }
 }
