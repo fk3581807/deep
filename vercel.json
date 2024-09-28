@@ -1,15 +1,7 @@
 {
-  "builds": [
-    {
-      "src": "/server.js",
-      "dest": "/",
-      "ssr": true
-    }
-  ],
   "routes": [
     {
       "src": "/webhook",
-      "dest": "/webhook",
       "type": "http"
     }
   ],
